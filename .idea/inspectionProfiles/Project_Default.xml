@@ -1,0 +1,81 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+          <option value="E111" />
+          <option value="E251" />
+          <option value="E722" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+          <option value="sum" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnreachableCodeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="datetime.date.today" />
+          <option value="learnvern.template_view" />
+          <option value="django.views.learn_django" />
+          <option value="gs24.fees.urls" />
+          <option value="gs24.course.urls" />
+          <option value="gs24.gs24.urls.course" />
+          <option value="gs24.gs24.urls.fees" />
+          <option value="miniblog.miniblog.urls.blog" />
+          <option value="miniblog.blog.views.form" />
+          <option value="crudproject1.crudproject1.urls.enroll" />
+          <option value="resumeproject.resumeproject.urls.core" />
+          <option value="views" />
+          <option value="store.urls.store" />
+          <option value="Eshop.urls.setting" />
+          <option value="store.views.request" />
+          <option value="store.views.signup.customer" />
+          <option value="store.views.signup.email" />
+          <option value="store.models.category.Category.objects" />
+          <option value="store.models.costomer.Customer.objects" />
+          <option value="store.models.orders.Order.objects" />
+          <option value="store.models.product.Product.objects" />
+          <option value="store.templatetags.cart.products" />
+          <option value="store.views.home.Index.session" />
+          <option value="store.views.home.Index.GET" />
+          <option value="store.views.login.Login.session" />
+          <option value="store.views.orders.OrderView.get_orders_by_customer" />
+          <option value="store.views.home.store" />
+          <option value="User" />
+          <option value="imageuploader.imageuploader.urls.myapp" />
+          <option value="imageuploader.myapp.views.save" />
+          <option value="imageuploader.myapp.views.form" />
+          <option value="io.ByteIO" />
+          <option value="gs2.api.models.Student.objects" />
+          <option value="gs3.api.models.Student.objects" />
+          <option value="day2.balance" />
+          <option value="course.models.course.Course.objetcs" />
+          <option value="gs12.api.models.Student.objects" />
+          <option value="gs17.api.models.Student.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
